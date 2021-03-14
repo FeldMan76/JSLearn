@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+
+	<body>
+
+	  <script>
+		let i = 2;
+		let n = 10;
+		for(;i <= n; i++) {
+			let easy = true
+			for (let j = 2; j < i; j++) {
+				if ((i % j) == 0) {easy = false;}
+			}
+			if (easy) {alert(i);}
+		} 
+	  </script>
+
+	</body>
+
+</html>
